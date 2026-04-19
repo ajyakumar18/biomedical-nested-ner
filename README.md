@@ -114,18 +114,16 @@ python -m spacy download en_core_web_sm
 # Evaluate results
 ```
 
-## Output
+## Results
 
-The notebook prints:
-- token lists
-- true entities
-- predicted entities
-- final evaluation metrics
+The model was evaluated on the GENIA dataset using multiple performance metrics:
 
-It also plots:
-- overall performance metrics
-- F1 score per entity type
-- entity distribution
+| Metric        | Score |
+|--------------|------|
+| Overall F1   | 0.7254 |
+| Nested F1    | 0.3632 |
+| NDT F1       | 0.4230 |
+| NST F1       | 0.2214 |
 
 ## Project Structure
 
