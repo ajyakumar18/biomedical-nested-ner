@@ -153,7 +153,7 @@ project/
 │   └── genia_test_context.json
 ├── code_with_results_and _outputs.ipynb
 └── README.md
-
+```
 
 ## Future Improvements
 
