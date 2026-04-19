@@ -135,8 +135,7 @@ project/
 │   ├── genia_train_dev.json
 │   └── genia_test_context.json
 ├── notebook.ipynb
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ## Future Improvements
