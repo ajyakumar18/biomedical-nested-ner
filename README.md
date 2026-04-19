@@ -125,6 +125,24 @@ The model was evaluated on the GENIA dataset using multiple performance metrics:
 | NDT F1       | 0.4230 |
 | NST F1       | 0.2214 |
 
+---
+
+### Classification Report
+
+```text
+              precision    recall  f1-score   support
+
+         DNA       0.69      0.77      0.72      2794
+           O       0.96      0.96      0.96     37683
+         RNA       0.69      0.58      0.63       199
+   cell_line       0.81      0.74      0.78      1137
+   cell_type       0.80      0.79      0.79      1160
+     protein       0.84      0.79      0.81      5206
+
+    accuracy                           0.92     48179
+   macro avg       0.80      0.77      0.78     48179
+weighted avg       0.92      0.92      0.92     48179
+
 ## Project Structure
 
 ```text
