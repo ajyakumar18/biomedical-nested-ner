@@ -147,11 +147,6 @@ project/
 - Add hyperparameter tuning for CRF layers
 - Export predictions in standard BIO/BILOU formats
 
-## Notes
-
-- The current implementation is optimized for layered nested entity extraction.
-- BioBERT embeddings are cached to reduce repeated computation.
-- The code uses token-level features and CRF-based sequence modeling rather than direct transformer fine-tuning.
 
 ## Acknowledgements
 
