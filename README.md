@@ -131,10 +131,11 @@ It also plots:
 
 ```text
 project/
+├── code.py
 ├── data/
 │   ├── genia_train_dev.json
 │   └── genia_test_context.json
-├── notebook.ipynb
+├── code_with_results_and _outputs.ipynb
 └── README.md
 ```
 
