@@ -127,7 +127,7 @@ The model was evaluated on the GENIA dataset using multiple performance metrics:
 
 ---
 
-### Classification Report
+## Classification Report
 
 ```text
               precision    recall  f1-score   support
@@ -142,7 +142,7 @@ The model was evaluated on the GENIA dataset using multiple performance metrics:
     accuracy                           0.92     48179
    macro avg       0.80      0.77      0.78     48179
 weighted avg       0.92      0.92      0.92     48179
-
+```
 ## Project Structure
 
 ```text
@@ -153,7 +153,7 @@ project/
 │   └── genia_test_context.json
 ├── code_with_results_and _outputs.ipynb
 └── README.md
-```
+
 
 ## Future Improvements
 
